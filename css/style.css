@@ -535,7 +535,7 @@ a:visited {
 	display: flex;
 	-webkit-box-pack: justify;
 	justify-content: space-between;
-	padding-left: 275px;
+	padding-left: 245px;
 }
 .main-header .top-header p {
 	margin: 0;
@@ -552,7 +552,7 @@ a:visited {
 	padding: 12px 0;
 }
 .main-header .top-header .left-info a {
-	color: #b2b3ba;
+	color: #ffffff;
 	font-size: 13px;
 	font-family: "Montserrat", sans-serif;
 	font-weight: 400;
@@ -627,7 +627,7 @@ a:visited {
 	display: none;
 }
 .main-header .header-navigation .container {
-	padding-left: 275px;
+	padding-left: 245px;
 }
 .main-header .header-navigation .main-navigation {
 	float: none;
@@ -3202,6 +3202,11 @@ a:visited {
 	.gallery-style-one .selective-post-filter {
 		display: none;
 	}
+
+	.contact-info-style-one {
+		padding-top: 50px;
+		padding-bottom: 150px;
+	}
 }
 .gallery-style-one .selective-post-filter .btn {
 	padding: 10px 15px;
@@ -5326,9 +5331,15 @@ a:visited {
 	background-color: #4b4949;
 	color: #fff;
 }
+.contact-dropdown > div {
+	color: #ffffff;
+	font-size: 13px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	transition: all 0.4s ease;
+}
 .contact-dropdown:hover ul {
 	height: 145px;
-	width: max-content;
 }
 ul.contact-list {
 	position: absolute;
@@ -5343,22 +5354,21 @@ ul.contact-list {
 	padding: 0;
 	list-style-type: none;
 }
-ul.contact-list .flag-icon{
+ul.contact-list .flag-icon {
 	display: inline-block;
-    margin-right: 15px;
 }
- ul.contact-list .flag-icon img {
+ul.contact-list .flag-icon img {
 	height: 22px;
-    box-shadow: 0 1px 1px #0000004a;
+	box-shadow: 0 1px 1px #0000004a;
 }
 .main-header .top-header .right-info ul.contact-list li a {
 	display: block;
-	padding: 10px 30px;
+	padding: 10px 20px;
 	font-size: 14px;
 	white-space: nowrap;
 }
-.main-header .top-header .right-info ul.contact-list li a:hover{
-	color:#222
+.main-header .top-header .right-info ul.contact-list li a:hover {
+	color: #222;
 }
 .section-padding {
 	padding: 100px 0;
@@ -5438,11 +5448,11 @@ ul.contact-list .flag-icon{
 	background-color: #ffefe9;
 }
 .product-list .img-box img {
-    max-height: 350px;
+	max-height: 350px;
 }
 .product-list .img-box {
-    padding: 30px;
-    text-align: center;
+	padding: 30px;
+	text-align: center;
 }
 .sidebar .single-sidebar .widget-title h3:after {
 	content: "";
@@ -5486,6 +5496,7 @@ ul.contact-list .flag-icon{
 }
 .contact-card {
 	margin: 0;
+	margin-bottom: 15px;
 	padding: 24px;
 	padding-bottom: 28px;
 	border-radius: 5px;
@@ -5562,7 +5573,7 @@ ul.contact-list .flag-icon{
 	position: relative;
 	flex: unset;
 	text-align: center;
-	width: 170px;
+	width: 190px;
 	border-color: #dee2e6;
 	height: 120px;
 	margin: 10px 15px;
@@ -5718,6 +5729,9 @@ ul.contact-list .flag-icon{
 	background-size: 100%;
 	padding-bottom: 80px;
 }
+.service-one img {
+	height: 450px;
+}
 .service-one .servone-left h2 {
 	font-size: 45px;
 	color: #222222;
@@ -5765,4 +5779,70 @@ ul.contact-list .flag-icon{
 		rgba(216, 66, 2, 0.9),
 		rgba(247, 156, 51, 0.9)
 	);
+}
+.footer-logo img {
+	height: 80px;
+}
+a.footer-logo {
+	color: #fff;
+	font-size: 30px;
+}
+.footer-contact ul {
+	margin: 0;
+	/* padding: 0; */
+	list-style: none;
+}
+footer .footer-contact li {
+	position: relative;
+	padding: 0 0 10px 20px;
+	font-size: 12px;
+}
+footer .footer-contact ul li a {
+	color: #b7bbc1;
+    font-size: 15px;
+}
+.footer-contact ul li:after {
+    color: #fff;
+    content: "";
+    font-family: fontawesome;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.footer-contact .location:after {
+    content: "\f041" !important;
+    font-size: 18px;
+}
+.footer-contact .phone:after {
+    content: "\f095" !important;
+    font-size: 18px;
+}
+.footer-contact .email:after {
+    font-size: 18px;
+    content: "\f003" !important;
+}
+.footer-contact ul li {
+    padding-left: 35px !important;
+}
+@media (max-width: 576px) {
+	.contact-info-style-one {
+		padding-top: 50px;
+		padding-bottom: 150px;
+	}
+	header .right-info {
+		display: none;
+	}
+	.service-one {
+		padding: 60px 0;
+		background-size: cover;
+		padding-bottom: 60px;
+
+		background-position: right;
+	}
+	.service-one img {
+		height: auto;
+	}
+	.product-related-block .nav-item {
+		flex: 1;
+	}
 }
