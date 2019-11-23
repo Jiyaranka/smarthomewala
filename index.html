@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/home-three.css">
+    <link rel="stylesheet" href="css/flaticon.css">
     <style>
      
     </style>
@@ -55,102 +56,24 @@
                         $("#header").load("/header.h")
                     })
                 </script> -->
-        <header class="main-header header-style-one">
-            <div class="top-header">
-                <div class="container">
-                    <div class="left-info">
-                        <p><i class="cameron-icon-email"></i><a href="mailto:support@example.com">support@example.com</a></p>
-                    </div><!-- /.left-info -->
-                    <div class="right-info">
-                            <div class="contact-dropdown">
-                                <div><i class="fa fa-phone"></i>Contact Us</div>
-                                <ul class="contact-list">
-                                    <li><a href="tel:+61433942645"> 
-                                        <div class="flag-icon">
-                                        </div>AU: +61433942645</a>
-                                    </li>
-                                    <li><a href="tel:+64210585555"> <div class="flag-icon">
-                                        </div>NZ: +64210585555</a></li>
-                                    <li><a href="tel:+61433942645"> <div class="flag-icon">
-                                        </div>IND: +61433942645</a></li>
-                                </ul>
-                                   
-                            </div>
-                        <!-- <ul class="info-block">
-                            <li><i class="cameron-icon-support"></i><a href="#">(0121) 268 3610</a></li>
-                        </ul> -->
-                    </div><!-- /.right-info -->
-                </div><!-- /.container -->
-            </div><!-- /.top-header -->
-            <nav class="navbar navbar-expand-lg navbar-light header-navigation stricky">
-                <div class="container clearfix">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="logo-box clearfix">
-                        <a class="navbar-brand" href="index.html">
-                            <img src="images/smart-home-logo.png" height="90" class="main-logo" alt="Awesome Image"/>
-                            <img src="images/smart-home-logo.png" height="60" class="stricky-logo" alt="Awesome Image"/>
-                        </a>
-            
-                        <button class="menu-toggler" data-target=".header-style-one .main-navigation">
-                            <span class="fa fa-bars"></span>
-                        </button>
-                    </div><!-- /.logo-box -->
-            
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="main-navigation">
-                        <ul class=" navigation-box">
-                            <li class="current">
-                                    <a href="index.html">Home</a>
-                                       
-                            </li>
-                            <li>
-                                <a href="products.html">Products</a>
-                                <ul class="sub-menu">
-                                    <li><a href="products.html"> Security</a></li>
-                                    <li><a href="products.htmll">Lighting</a></li>
-                                    <li><a href="products.html">Connectivity</a></li>
-                                </ul><!-- /.sub-menu -->
-                            </li>
-                           
-                           
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                    </div><!-- /.navbar-collapse -->
-                    <div class="right-side-box">
-                        <div class="social">
-                            <a href="#"><i class="fa fa-facebook-f"></i></a><!--
-                            --><a href="#"><i class="fa fa-twitter"></i></a>
-            
-                        </div><!-- /.social -->
-                    </div><!-- /.right-side-box -->
-                </div>
-                <!-- /.container -->
-            </nav>
+        <header class="main-header header-style-one" id="header">
+                <script>
+                        $(function() {
+                            $("#header").load("header.html")
+                        })
+                    </script>
         </header><!-- /.main-header header-style-one -->
         <div class="main-banner-wrapper">
             <section class="banner-style-one owl-theme owl-carousel no-dots">
-                <div class="slide slide-one" style="background-image: url(images/slider1.jpg);">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12 text-center">
-                                <h3 class="banner-title">Keep <strong>Safe & Happy</strong> Your Mind</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod </p>
-                                <div class="btn-block">
-                                    <a href="#" class="banner-btn">Get Appointment</a>
-                                </div><!-- /.btn-block -->
-                            </div><!-- /.col-lg-12 -->
-                        </div><!-- /.row -->
-                    </div><!-- /.container -->
-                </div><!-- /.slide -->
+              
                 <div class="slide slide-two" style="background-image: url(images/slider2.jpg);">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-6">
                                 <h3 class="banner-title">Create a <strong>Connected  Home</strong> </h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod </p>
-                                <!-- <p>For too long, the smart home hasn't been vey smart. It's complicated to find, set up and manage, with lot of different devices that don't work well together. So we're simplifing things and bringing together all the devices that power your home under one roof.  </p> -->
+                                <p>For too long, the smart home hasn't been vey smart. It's complicated to find, set up and manage, with lot of different devices that don't work well together. So we're simplifing things and bringing together all the devices that power your home under one roof.  </p>
                                 <div class="btn-block">
-                                    <a href="#" class="banner-btn">Get Appointment</a>
+                                    <a href="contact.html" class="banner-btn">Enquire Now</a>
                                 </div><!-- /.btn-block -->
                             </div><!-- /.col-lg-6 -->
                         </div><!-- /.row -->
@@ -160,8 +83,8 @@
                     <div class="container">
                         <div class="row justify-content-end">
                             <div class="col-lg-6">
-                                <h3 class="banner-title">Keep <strong>Safe & <br> Happy</strong> Your Mind</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit sed do eiusmod </p>
+                                <h3 class="banner-title">Create a <strong>Connected</strong> Home</h3>
+                                <p>For too long, the smart home hasn't been vey smart. It's complicated to find, set up and manage, with lot of different devices that don't work well together. So we're simplifing things and bringing together all the devices that power your home under one roof. </p>
                                 <div class="btn-block">
                                     <a href="#" class="banner-btn">Get Appointment</a>
                                 </div><!-- /.btn-block -->
@@ -182,11 +105,10 @@
                             <div class="hvr-bubble hvr-bubble-2"></div><!-- /.hvr-bubble hvr-bubble-2 -->
                             <div class="hvr-bubble hvr-bubble-3"></div><!-- /.hvr-bubble hvr-bubble-3 -->
                             <div class="icon-block">
-                                <i class="cameron-icon-lock-1"></i>
+                                <i class="flaticon-security"></i>
                             </div><!-- /.icon-block -->
                             <h3><a href="#"> Security</a></h3>
-                            <p>Excepteur sint occaecat cupidatat non proi dent sunt in culpa qui officia deserunt
-                                mollit.</p>
+                            <p>Our security products range from a variety of Smart door locks, WiFi enabled security cameras, smart door bells, motion sensors and smoke sensors.</p>
                             <a href="#" class="more-link">Read More</a>
                         </div><!-- /.single-offer-style-one -->
                     </div><!-- /.col-lg-3 -->
@@ -197,11 +119,11 @@
                             <div class="hvr-bubble hvr-bubble-2"></div><!-- /.hvr-bubble hvr-bubble-2 -->
                             <div class="hvr-bubble hvr-bubble-3"></div><!-- /.hvr-bubble hvr-bubble-3 -->
                             <div class="icon-block">
-                                <i class="cameron-icon-lock-2"></i>
+                                <i class="flaticon-lighting"></i>
                             </div><!-- /.icon-block -->
                             <h3><a href="#">Lighting</a></h3>
-                            <p>Excepteur sint occaecat cupidatat non proi dent sunt in culpa qui officia deserunt
-                                mollit.</p>
+                            <p> Our lighting ranges all the way from bulbs, downlight and even LED Strips and each can range from static colour through to a spectrum of RGB (256) colours. 
+                                </p>
                             <a href="#" class="more-link">Read More</a>
                         </div><!-- /.single-offer-style-one -->
                     </div><!-- /.col-lg-3 -->
@@ -212,11 +134,10 @@
                             <div class="hvr-bubble hvr-bubble-2"></div><!-- /.hvr-bubble hvr-bubble-2 -->
                             <div class="hvr-bubble hvr-bubble-3"></div><!-- /.hvr-bubble hvr-bubble-3 -->
                             <div class="icon-block">
-                                <i class="cameron-icon-lock-3"></i>
+                                <i class="flaticon-connectivity"></i>
                             </div><!-- /.icon-block -->
                             <h3><a href="#">Connectivity</a></h3>
-                            <p>Excepteur sint occaecat cupidatat non proi dent sunt in culpa qui officia deserunt
-                                mollit.</p>
+                            <p>Our connectivity products enhance connectivity via switches, sockets, IR sensor, smart curtains, air quality control and much more.</p>
                             <a href="#" class="more-link">Read More</a>
                         </div><!-- /.single-offer-style-one -->
                     </div><!-- /.col-lg-3 -->
@@ -232,11 +153,8 @@
                                 <span class="tag-line">Some Story</span><!-- /.tag-line -->
                                 <h2>Know More About Us</h2>
                             </div><!-- /.title-block -->
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiu smod tempor incidunt enim ad minim veniam quis nostrud exerc tation ullamco laboris nisi ut aliquip ex ea commodo con sequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
-                            <ul class="list-item">
-                                <li><i class="fa fa-circle-o"></i> Convallis ligula ligula gravida tristique.</li>
-                                <li><i class="fa fa-circle-o"></i> Convallis ligula ligula gravida tristique.</li>
-                            </ul><!-- /.list-item -->
+                            <p>At SmartHomeWala, we take homes seriously and everything to do with them. Therefore, we take the time to sit with our clients and understand their personalised needs and then identify the right solution for their homes. We also take pride in being there for our clients when they need us and make sure we hand hold them through the entire home automation journey including post installation support.</p>
+                            <br>
                             <a href="#" class="more-btn">Get Started</a>
                         </div><!-- /.content-block -->
                     </div><!-- /.col-lg-6 -->
@@ -688,8 +606,7 @@
                                     /> SmartHomeWala
                                 </a>
                                 <p>
-                                    Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor
-                                    incididunt ut labore dolore magna aliqua enim.
+                                        At SmartHomeWala, we take homes seriously and everything to do with them. Therefore, we take the time to sit with our clients and understand their personalised needs and then identify the right solution for their homes.
                                 </p>
                                 <div class="social-block">
                                     <a href="#"><i class="fa fa-facebook-f"></i></a>
