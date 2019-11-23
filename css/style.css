@@ -1023,9 +1023,9 @@ a:visited {
 .site-footer .about-widget .social-block {
 	margin-top: 42px;
 }
-.site-footer .links-widget {
+/* .site-footer .links-widget {
 	padding-left: 54px;
-}
+} */
 .site-footer .works-widget {
 	margin-left: -50px;
 	width: 100%;
@@ -5789,7 +5789,7 @@ a.footer-logo {
 }
 .footer-contact ul {
 	margin: 0;
-	/* padding: 0; */
+	padding: 0;
 	list-style: none;
 }
 footer .footer-contact li {
