@@ -535,7 +535,7 @@ a:visited {
 	display: flex;
 	-webkit-box-pack: justify;
 	justify-content: space-between;
-	padding-left: 245px;
+	padding-left: 285px;
 }
 .main-header .top-header p {
 	margin: 0;
@@ -616,7 +616,7 @@ a:visited {
 }
 .main-header .header-navigation .navbar-brand {
 	background-color: #ff6c3a;
-	padding: 41px 46px;
+    padding: 30px 36px;
 	position: relative;
 	top: -16px;
 }
@@ -627,7 +627,7 @@ a:visited {
 	display: none;
 }
 .main-header .header-navigation .container {
-	padding-left: 245px;
+	padding-left: 285px;
 }
 .main-header .header-navigation .main-navigation {
 	float: none;
@@ -5829,6 +5829,10 @@ footer .footer-contact ul li a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+.footer-logo img {
+    height: 80px;
+    filter: invert(1);
 }
 @media (max-width: 576px) {
 	.contact-info-style-one {
