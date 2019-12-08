@@ -2849,6 +2849,13 @@ a:visited {
 	line-height: 26px;
 	margin: 0;
 	margin-bottom: 14px;
+
+	text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: 130px;
 }
 .single-offer-style-one a.more-link {
 	color: #222222;
@@ -5623,7 +5630,7 @@ ul.contact-list .flag-icon img {
 }
 .contact-support {
 	background-color: #ff6c3a;
-	background-image: url(https://mitech.thememove.com/file/2019/03/mitech-processing-contact-bg.png);
+	background-image: url("../images/home-map.png");
 	background-repeat: no-repeat;
 	background-position: top right;
 	padding-top: 128px !important;
